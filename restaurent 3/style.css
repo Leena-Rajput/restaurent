@@ -1,0 +1,66 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+}
+
+
+body{
+  border-radius: 40px;
+  background-image: url("https://github.com/pwlive/fullstackwebdevelopment/blob/1f493053570bf725b7af69e53878f4f83fadfe56/Assignment_01(HTML+CSS)/assets/pexels-maxyne-barcel-10402282%201.png?raw=true");
+}
+/*--------Navigation Section-----------*/
+nav{
+   display: flex;
+   justify-content: space-between;
+   height: 15%;
+   margin: 20px 20px 100px 20px;
+
+}
+.logo img{
+   width: 100px;
+   
+}
+nav ul{
+   display: flex;
+   gap: 40px;
+   align-items: center;
+   list-style: none;
+   font-size: 15px;
+   font-weight: 700;
+   color: rgb(253, 191, 19);
+   font-family: 'Poppins', sans-serif;
+}
+.order-btn{
+   background-color: rgb(255, 93, 93);
+   color: white;
+   padding: 8px 25px;
+   border: none;
+   font-weight: 600;
+   font-size: 18px;
+}
+
+/*-------Main Section-------*/
+.main-section {
+   color: rgb(253, 191, 19);
+   text-align: center;
+   font-size: 30px;
+   font-family: 'Dela Gothic One', cursive;
+   
+}
+.menu-btn{
+   background-color: rgb(255, 93, 93);
+   color: white;
+   padding: 15px 25px;
+   border: none;
+   font-weight: 600;
+   font-size: 18px;
+}
+.scroll-img img{
+   margin: 20px 20px;
+   height: 100px;
+   width: 100px;
+  
+   float: right;
+   
+}
